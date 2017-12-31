@@ -1,0 +1,48 @@
+baseurl = "http://localhost:1313/"
+languageCode = "en-en"
+title = "Niveau 3 Architecture"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+googleAnalytics = ""
+disableKinds = ["taxonomy","taxonomyTerm"]
+
+[params]
+	# General information
+	author = "Niveau3"
+	description = "L'agence d'architecture Niveau3 - SCP LASSAUX-POUGET est spécialisée dans les opérations de haute technicité. Son domaine d'activité principal couvre les secteurs hospitalier, médico-social, recherche et industrie. Nombreuses références en ligne."
+	copyright = "Released under the MIT license"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+[params.palette]
+	primary = "light-blue"
+	accent  = "teal"
+
+[params.font]
+	text = "Ubuntu"
+	code = "Ubuntu Mono"
+
+[social]
+	email   = "contact@niveau3architecture.fr"
+
+[blackfriday]
+	smartypants	= false
+	fractions = false
+	smartDashes = false
+	plainIDAnchors = false
+
+[[menu.main]]
+	name   = "Activites"
+	url    = "activite/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Agence"
+	url    = "agence/"
+	weight = 20
